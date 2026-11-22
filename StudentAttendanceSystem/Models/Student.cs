@@ -1,0 +1,8 @@
+namespace AttendanceSystem.Models;
+
+public sealed class Student
+{
+    public string StudentId { get; set; } = "";
+    public string FullName { get; set; } = "";
+    public string ClassName { get; set; } = "";
+}
